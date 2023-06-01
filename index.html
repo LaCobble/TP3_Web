@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <meta charset="utf-8">
+    <link rel="icon" href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F000%2F615%2F597%2Foriginal%2Fglobe-logo-vector-icon-download-editable.jpg&f=1&nofb=1&ipt=a48523c5ad38b9702020433d2ff04ef94e75dc57b494398a6f4833089173d3a1&ipo=images" />
+    <title>World Flags</title>
+</head>
+
+<body>
+    <button class="DM-Button" role="button" id="light-mode-btn" onclick="toggleLightMode()">Light Mode</button>
+    <h1>World Flags</h1>
+
+    <div class="search">
+        <form class="form">
+            <input id="search" type="search" placeholder="Search..." required>
+        </form>
+        <select name="" class="selectCountry" id="select">
+            <option value="">Select a region</option>
+            <option value="africa">Africa</option>
+            <option value="americas">Americas</option>
+            <option value="asia">Asia</option>
+            <option value="europe">Europe</option>
+            <option value="oceania">Oceania</option>
+        </select>
+    </div>
+
+    <div class="list-country" id="list-country">
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

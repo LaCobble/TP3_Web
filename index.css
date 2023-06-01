@@ -1,0 +1,214 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #0c1221;
+}
+
+h1 {
+  text-align: center;
+  color: #feb32b;
+  font-size: 60px;
+  margin-top: 0;
+}
+
+.search {
+  text-align: center;
+  right: 50%;
+}
+
+.form {
+  display: inline-block;
+}
+
+input {
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 350px;
+  font-size: 30px;
+  padding: 0;
+  border-radius: 0;
+
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #333333;
+
+  font-family: inherit;
+}
+
+input:focus {
+  animation: border-animation-focus 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes border-animation-focus {
+  from {}
+
+  to {
+    border-bottom: 3px solid #fbc91b;
+  }
+  
+}
+
+p {
+  color: white;
+  font-family: inherit;
+  font-size: large;
+  text-align: center;
+}
+
+.selectCountry {
+  display: inline-block;
+  margin-top: 20px;
+  width: 350px;
+  font-size: 30px;
+  padding: 0;
+  border-radius: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #333333;
+
+  font-family: inherit;
+}
+
+.selectCountry option {
+  color: black;
+}
+.selectCountry option:first-child {
+  color: white;
+}
+
+.list-country {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+  margin-top: 60px;
+}
+  
+.country {
+  background-color: rgba(255, 255, 255, 0.075);
+  width: 17em;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  transition: transform .2s ease;
+  
+  border-radius: 5px;
+  
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+  
+.country:hover {
+  transform: scale(1.1);
+ }
+  
+.country-title {
+  text-transform: uppercase;
+  margin-top: 1em;
+  margin-bottom: 10px;
+  margin-left: 14px;
+  font-size: 1.75em;
+  color: white;}
+  
+.sub-title {
+  margin-left: 14px;
+  font-size: 1.25em;
+  color: white;
+}
+  
+.country-flag {
+  text-align: center;
+}
+  
+img {
+  width: 90%;
+  border-radius: 3px;
+}
+  
+.light-mode {
+  background-color: white;
+  color: black;
+}
+  
+.light-mode h1 {
+  color: rgb(45, 40, 215);
+}
+  
+.light-mode .selectCountry option:first-child {
+  color: black;
+}
+  
+.light-mode input {
+  background-color: white;
+  color: black;
+  border-bottom: 3px solid #ddd;
+}
+
+.light-mode p{
+  color: black;
+}
+
+.light-mode .selectCountry {
+  color : black;
+}
+
+.light-mode .selectCountry option {
+  color: white;
+}
+.light-mode .selectCountry option:first-child {
+  color: black;
+}
+
+.light-mode .country-title {
+  color: black;
+}
+
+.light-mode .sub-title {
+  color: black;
+}
+
+.DM-Button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid white;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px white, 2px 2px 0px 0px white, 3px 3px 0px 0px white, 4px 4px 0px 0px white, 5px 5px 0px 0px white;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  background-color: #ffffff;
+}
+
+.DM-Button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .DM-Button {
+    padding: 0.25em 0.75em;
+  }
+}
+
+.light-mode .DM-Button {
+  color: #000000;
+  border: 3px solid white;
+  box-shadow: 1px 1px 0px 0px black, 2px 2px 0px 0px black, 3px 3px 0px 0px black, 4px 4px 0px 0px black, 5px 5px 0px 0px black;
+
+}
