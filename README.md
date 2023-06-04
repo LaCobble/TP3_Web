@@ -1,4 +1,4 @@
-![To_Do_List](Repo_img/...)
+<div style="text-align:center"><img src="..." /></div>.
 
 This project is a...
 
