@@ -1,4 +1,6 @@
-<div style="text-align:center"><img src="..." /></div>.
+<p align="center">
+<img src="..."/>
+</p>
 
 This project is a...
 
