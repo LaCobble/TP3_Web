@@ -1,7 +1,7 @@
 # World Flags
 
 <p align="center">
-<img src="https://github.com/LaCobble/World_Flags/assets/71151090/09b9a39a-bb41-4f49-8181-6419e5ac26e0" width=40% height=40%>>
+<img src="https://github.com/LaCobble/World_Flags/assets/71151090/09b9a39a-bb41-4f49-8181-6419e5ac26e0" width=40% height=40%>
 </p>
 
 This is a simple web application that allows you to search and browse flags from different regions of the world. You can search for specific countries or filter flags by region. The application is built using HTML, CSS, and JavaScript.
