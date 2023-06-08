@@ -43,3 +43,7 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 ## Acknowledgements
 The flags used in this application are sourced from Flagpedia.
 The globe logo used in the favicon is created by Vecteezy.
+
+## Contact
+
+Thank you for using the World_Flag application! If you have any questions or need further assistance, please feel free to contact us.
