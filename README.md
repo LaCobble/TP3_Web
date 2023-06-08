@@ -43,11 +43,3 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 ## Acknowledgements
 The flags used in this application are sourced from Flagpedia.
 The globe logo used in the favicon is created by Vecteezy.
-
-## Contact
-If you have any questions, suggestions, or feedback, please feel free to reach out to me at your-email@example.com.
-
-
-
-
-
